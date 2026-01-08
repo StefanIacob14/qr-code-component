@@ -6,8 +6,45 @@
 
     <link rel="stylesheet" href="style.css" />
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="images/favicon-32x32.png" />
     <title>QR Code Component</title>
   </head>
 
-  <body></body>
+  <body
+    class="h-screen bg-slate-300 grid justify-center items-center font-[Outfit]"
+  >
+    <!--QR Component Div-->
+    <div
+      class="h-124.75 w-[320px] bg-white rounded-[20px] px-4 pt-4 pb-10 flex flex-col gap-6"
+    >
+      <img
+        class="rounded-[10px] size-72"
+        src="images/image-qr-code.png"
+        alt="QR Code"
+      />
+
+      <!-- Component Text -->
+      <div class="w-[288px] h-32.75 flex flex-col gap-4 text-center px-4">
+        <p
+          class="text-slate-900 font-bold text-[22px] leading-[120%] pointer-events-none"
+        >
+          Improve your front-end skills by building projects
+        </p>
+        <p
+          class="text-slate-500 slate font-normal text-[15px] leading-[140%] tracking-[0.2px] pointer-events-none"
+        >
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
